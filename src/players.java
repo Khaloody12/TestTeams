@@ -1,11 +1,18 @@
 
 public class players {
 	public static void main(String[] args) {
-		System.out.println("Hello");
+		
+		
+		
+		
+		
 	}
 	
-	public void player() {
-		
+	
+	
+	
+	public void players() {
+	System.out.println("player");	
 	}
 	
 
@@ -14,6 +21,11 @@ public class players {
 
 
 class player1 extends players{
+
+	public player1() {
+		super();
+		System.out.println("player1");	
+	}
 	
 	
 	
@@ -21,7 +33,12 @@ class player1 extends players{
 }
 
 
-class player2 extends players{
+class player2 extends player1{
+
+	public player2() {
+		super();
+		System.out.println("player2");	
+	}
 	
 	
 	
